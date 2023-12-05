@@ -20,11 +20,11 @@
                         <thead class="">
                             <tr>
                             	<th class="text-center">#</th>
-                                <th class="text-center">Código</th>
-                                <th class="text-center">Nombre</th>
-                                <th class="text-center">Descripción</th>
-                                <th class="text-center">Actualizar</th>
-                              	<th class="text-center">Eliminar</th>
+                                <th class="text-center">Code</th>
+                                <th class="text-center">Name</th>
+                                <th class="text-center">Description</th>
+                                <th class="text-center">Update</th>
+                              	<th class="text-center">Delete</th>
                             </tr>
                         </thead>
                         <tbody>

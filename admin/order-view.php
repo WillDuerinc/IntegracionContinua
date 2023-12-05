@@ -10,14 +10,14 @@
                         <thead class="">
                             <tr>
                               <th class="text-center">#</th>
-                                <th class="text-center">N. Deposito</th>
-                                <th class="text-center">Fecha</th>
-                                <th class="text-center">Cliente</th>
+                                <th class="text-center">N. Deposit</th>
+                                <th class="text-center">Date</th>
+                                <th class="text-center">Client</th>
                                 <th class="text-center">Total</th>
-                                <th class="text-center">Estado</th>
-                                <th class="text-center">Envío</th>
-                                <th class="text-center">Opciones</th>
-                                <th class="text-center">Eliminar</th>
+                                <th class="text-center">Status</th>
+                                <th class="text-center">Delivery</th>
+                                <th class="text-center">Options</th>
+                                <th class="text-center">Delete</th>
                             </tr>
                         </thead>
                         <tbody>

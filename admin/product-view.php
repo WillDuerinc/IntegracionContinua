@@ -2,69 +2,69 @@
 <ul class="breadcrumb" style="margin-bottom: 5px;">
     <li>
         <a href="configAdmin.php?view=product">
-            <i class="fa fa-plus-circle" aria-hidden="true"></i> &nbsp; Nuevo producto
+            <i class="fa fa-plus-circle" aria-hidden="true"></i> &nbsp; New product
         </a>
     </li>
     <li>
-        <a href="configAdmin.php?view=productlist"><i class="fa fa-list-ol" aria-hidden="true"></i> &nbsp; Productos en tienda</a>
+        <a href="configAdmin.php?view=productlist"><i class="fa fa-list-ol" aria-hidden="true"></i> &nbsp; Products</a>
     </li>
 </ul>
 <div class="container">
 	<div class="row">
         <div class="col-xs-12">
             <div class="container-form-admin">
-                <h3 class="text-primary text-center">Agregar un producto a la tienda</h3>
+                <h3 class="text-primary text-center">Add product</h3>
                 <form action="./process/regproduct.php" method="POST" enctype="multipart/form-data" class="FormCatElec" data-form="save">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-xs-12">
-                                <legend>Datos del producto</legend>
+                                <legend>Product data</legend>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-4">
                               <div class="form-group label-floating">
-                                <label class="control-label">Código de producto</label>
+                                <label class="control-label">Product code</label>
                                 <input type="text" class="form-control" required maxlength="30" name="prod-codigo">
                               </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-4">
                               <div class="form-group label-floating">
-                                <label class="control-label">Nombre de producto</label>
+                                <label class="control-label">Product name</label>
                                 <input type="text" class="form-control" required maxlength="30" name="prod-name">
                               </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-4">
                               <div class="form-group label-floating">
-                                <label class="control-label">Marca</label>
+                                <label class="control-label">Brand</label>
                                 <input type="text" class="form-control" required name="prod-marca">
                               </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-4">
                               <div class="form-group label-floating">
-                                <label class="control-label">Talla</label>
+                                <label class="control-label">Size</label>
                                 <input type="text" class="form-control" required name="prod-talla">
                               </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-4">
                               <div class="form-group label-floating">
-                                <label class="control-label">Precio</label>
+                                <label class="control-label">price</label>
                                 <input type="text" class="form-control" required maxlength="20" pattern="[0-9.]{1,20}" name="prod-price">
                               </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-4">
                               <div class="form-group label-floating">
-                                <label class="control-label">Descuento (%)</label>
+                                <label class="control-label">Clearance (%)</label>
                                 <input type="text" class="form-control" required maxlength="2" pattern="[0-9]{1,2}" name="prod-desc-price" value="0">
                               </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-4">
                               <div class="form-group label-floating">
-                                <label class="control-label">Unidades disponibles</label>
+                                <label class="control-label">Availability</label>
                                 <input type="text" class="form-control" required maxlength="20" pattern="[0-9]{1,20}" name="prod-stock">
                               </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-4">
                               <div class="form-group label-floating">
-                                <label class="control-label">Características</label>
+                                <label class="control-label">Specifications</label>
                                 <input type="text" class="form-control" required maxlength="1000" name="prod-car">
                               </div>
                             </div>

@@ -15,28 +15,28 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="form-group label-floating">
-                                    <label class="control-label">Nombre de usuario</label>
+                                    <label class="control-label">User name</label>
                                     <input class="form-control" type="text" name="admin-name" value="<?php echo $dataAdmin['Nombre']; ?>" maxlength="9" pattern="[a-zA-Z0-9]{4,9}" required="">
                                 </div>
                             </div>
                             <div class="col-xs-12">
-                            	<p class="text-primary text-center" style="padding-top: 20px;">No es necesario actualizar la contraseña, sin embargo si desea hacerlo debe de ingresar una nueva contraseña y volver a ingresarla</p>
+                            	<p class="text-primary text-center" style="padding-top: 20px;">New password not necessary</p>
                             </div>
                             <div class="col-xs-12 col-sm-6">
                                 <div class="form-group label-floating">
-                                    <label class="control-label">Nueva contraseña</label>
+                                    <label class="control-label">New password</label>
                                     <input class="form-control" type="password" name="admin-pass1">
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-6">
                                 <div class="form-group label-floating">
-                                    <label class="control-label">Repita la nueva contraseña</label>
+                                    <label class="control-label">Repeat password</label>
                                     <input class="form-control" type="password" name="admin-pass2">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <p class="text-center"><button type="submit" class="btn btn-primary btn-raised">Actualizar cuenta</button></p>
+                    <p class="text-center"><button type="submit" class="btn btn-primary btn-raised">Update account</button></p>
                 </form>
             </div>
         </div>

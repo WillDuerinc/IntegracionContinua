@@ -2,14 +2,14 @@
 <ul class="breadcrumb" style="margin-bottom: 5px;">
     <li>
         <a href="configAdmin.php?view=admin">
-            <i class="fa fa-plus-circle" aria-hidden="true"></i> &nbsp; Nuevo Administrador
+            <i class="fa fa-plus-circle" aria-hidden="true"></i> &nbsp; New administrator
         </a>
     </li>
     <li>
-        <a href="configAdmin.php?view=adminlist"><i class="fa fa-list-ol" aria-hidden="true"></i> &nbsp; Administradores del sistema</a>
+        <a href="configAdmin.php?view=adminlist"><i class="fa fa-list-ol" aria-hidden="true"></i> &nbsp; Administrators</a>
     </li>
     <li>
-        <a href="configAdmin.php?view=account"><i class="fa fa-address-card" aria-hidden="true"></i> &nbsp; Mi cuenta</a>
+        <a href="configAdmin.php?view=account"><i class="fa fa-address-card" aria-hidden="true"></i> &nbsp; My acconut</a>
     </li>
 </ul>
 <div class="container">
@@ -17,14 +17,14 @@
         <div class="col-xs-12">
             <br><br>
             <div class="panel panel-info">
-                <div class="panel-heading text-center"><h4>Administradores del sistema</h4></div>
+                <div class="panel-heading text-center"><h4>Administrators</h4></div>
                 <div class="table-responsive">
                     <table class="table table-striped table-hover">
                         <thead class="">
                             <tr>
                                 <th class="text-center">#</th>
-                                <th class="text-center">Nombre</th>
-                                <th class="text-center">Eliminar</th>
+                                <th class="text-center">Name</th>
+                                <th class="text-center">Delete</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -52,7 +52,7 @@
                                 <td class="text-center">
                                     <form action="process/deladmin.php" method="POST" class="FormCatElec" data-form="delete">
                                         <input type="hidden" name="admin-code" value="<?php echo $adm['id']; ?>">
-                                        <button type="submit" class="btn btn-raised btn-xs btn-danger">Eliminar</button>    
+                                        <button type="submit" class="btn btn-raised btn-xs btn-danger">Delete</button>    
                                     </form>
                                 </td>
                             </tr>
